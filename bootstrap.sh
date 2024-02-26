@@ -57,7 +57,7 @@ install_fzf()
 
 install_zsh()
 {
-	sudo apt install zsh
+	sudo apt install zsh -y
     zsh --version
     # https://ohmyz.sh/
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
