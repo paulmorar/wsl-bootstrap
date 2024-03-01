@@ -23,13 +23,6 @@ update_git()
     sudo apt-get install git -y
 }
 
-install_fuck()
-{
-	sudo apt update
-    sudo apt install python3-dev python3-pip python3-setuptools
-    pip3 install thefuck --user
-}
-
 install_node()
 {
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -79,8 +72,6 @@ main()
 	update_git | indent
 	echo "Installing extra packages"
 	install_extras | indent
-	echo "Installing dafuck"
-	install_fuck | indent
 	echo "Install Node"
 	install_node | indent
 	echo "Install GO"
