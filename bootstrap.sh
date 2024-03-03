@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-EXTRA_APT_PACKAGES_TO_INSTALL="tree stow"
+EXTRA_APT_PACKAGES_TO_INSTALL="tree stow, build-essential, zip, unzip"
 
 install_extras()
 {
