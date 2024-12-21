@@ -50,3 +50,6 @@ echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.zshrc
 
 # Install go
 brew install go
+
+# Install nvim
+brew install nvim
